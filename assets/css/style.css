@@ -11,3 +11,25 @@ body {
     color: #555;
 }
 
+.main .header .logo-icons .site-content .footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 116px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 940px;
+}
+
+.top-header {
+    height: 64px;
+    border-bottom: solid 1px #e9eaed;
+}
+
+.logo-icons {
+    width: 940px;
+    height: 64px;
+}
