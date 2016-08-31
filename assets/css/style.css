@@ -11,25 +11,161 @@ body {
     color: #555;
 }
 
-.main .header .logo-icons .site-content .footer {
+.header-block {
+    min-width: 1160px;
+    height: 116px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main, .header-block, .top-header, .bottom-header {
     margin-left: auto;
     margin-right: auto;
 }
 
 .header {
-    height: 116px;
-    font-size: 0.8em;
-    margin-left: 0px;
-    margin-right: 0px;
-    min-width: 940px;
-}
-
-.top-header {
     height: 64px;
     border-bottom: solid 1px #e9eaed;
 }
 
-.logo-icons {
-    width: 940px;
+.top-header {
+    width: 1160px;
     height: 64px;
+}
+
+.logo {
+    width: 200px;
+    height: 64px;
+    float: left;
+}
+
+.logo-img {
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+.logo-img img {
+    height: 64px;
+}
+
+.logo-text {
+    height: 64px;
+    padding-left: 15px;
+    float: left;
+    display: table;
+}
+
+.logo-text h1 {
+    font: normal 200% "Trebuchet MS", Helvetica, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-buttons {
+    height: 64px;
+    float: right;
+    border-left: solid 1px #e9eaed;
+}
+
+.message-button {
+    width: 60px;
+    height: 64px;
+    float: left;
+    border-right: solid 1px #e9eaed;
+}
+
+.message-button img {
+    width: 20px;
+    height: 20px;
+    padding: 20px 0 0 22px;
+}
+
+.profile-button {
+    width: 60px;
+    height: 64px;
+    float: left;
+    border-right: solid 1px #e9eaed;
+}
+
+.profile-button img {
+    width: 20px;
+    height: 20px;
+    padding: 20px 0 0 22px;
+}
+
+.search-button {
+    width: 60px;
+    height: 64px;
+    float: left;
+    border-right: solid 1px #e9eaed;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    padding: 20px 0 0 22px;
+}
+
+.search-button input {
+    outline: none;
+}
+
+.search-button input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 130%;
+    float: right;
+}
+
+.search-button input::-webkit-search-decoration,
+.search-button input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search-button input[type=search] {
+    background: #ffffff url("search.svg") no-repeat 20px center;
+    background-size: 20px;
+    border: none;
+    padding: 18px 29px 17px 29px;
+    width: 0;
+}
+
+.search-button input[type=search]:focus {
+    width: 1130px;
+    background: #ffffff none;
+    padding: 18px 15px 17px 15px;
+    border-left: solid 1px #e9eaed;
+}
+
+.bottom-header {
+    width: 1160px;
+    height: 52px;
+}
+
+ul.menu-bar {
+    float: left;
+}
+
+ul.menu-bar li {
+    float: left;
+    list-style: none;
+}
+
+ul.menu-bar li a {
+    font: bold 80% "Trebuchet MS", Helvetica, sans-serif;
+    display: block;
+    height: 16px;
+    text-decoration: none;
+    color: #000000;
+    padding: 18px 25px 18px 0;
+}
+
+ul.menu-bar li a:hover{
+    color: red;
+}
+
+ul.menu-bar li.selected a {
+    color: red;
 }
